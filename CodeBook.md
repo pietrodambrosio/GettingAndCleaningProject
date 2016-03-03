@@ -41,6 +41,7 @@ The tidy data is "run_analysis_output.txt" and contains :
 * The name of the subject who carried out the experiment ("subject"). 
 * The activity label ("activity")
 * The means of all variables (only mean and standard deviation) collected from the accelerometer and gyroscope 3-axial raw signal (numeric value)
+
 ### Variables List
 * subject 
 * activity
