@@ -1,7 +1,7 @@
 ### Contents
 * **CodeBook.md** - contains the information about data and cleaning process 
 * **run_analysis.R** - R script to clean raw data and create the output data set.
-* **run_data_summary.txt** - Output file generated.
+* **run_analysis_output.txt** - Output file generated.
 
 ### Getting started
 1. Download and unzip the input data set from here: [https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip]
