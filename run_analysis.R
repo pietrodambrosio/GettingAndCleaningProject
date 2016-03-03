@@ -85,7 +85,7 @@ names(ds_extr)<-gsub("BodyBody", "Body", names(ds_extr))
 ##          tidy data set with the average of each variable for each 
 ##          activity and each subject
 ## ---------------------------------------------------------------------
-
+library(plyr)
 ds_out<-ddply(ds_extr, c("subject","activity"), numcolwise(mean))
 #improve column names
 ds_out_colnames<-names(ds_out)
